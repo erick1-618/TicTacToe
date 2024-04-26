@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Jogo da Velha</h1>
+    <button onclick="vv = va = 0; jogo(0);">Reiniciar Pontuação</button> <br><br>
+    <div id="a0" class="matriz" onclick="somaM(a, 0)"></div>
+    <div id="a1" class="matriz" onclick="somaM(a, 1)"></div>
+    <div id="a2" class="matriz" onclick="somaM(a, 2)"></div>
+    <br>
+    <div id="b0" class="matriz" onclick="somaM(b, 0)"></div>
+    <div id="b1" class="matriz" onclick="somaM(b, 1)"></div>
+    <div id="b2" class="matriz" onclick="somaM(b, 2)"></div>
+    <br>
+    <div id="c0" class="matriz" onclick="somaM(c, 0)"></div>
+    <div id="c1" class="matriz" onclick="somaM(c, 1)"></div>
+    <div id="c2" class="matriz" onclick="somaM(c, 2)"></div>
+    <p id="VA" style="color:blue"></p>
+    <p id="VV" style="color:red"></p>
+    <div class="rdp">
+        <p>by Erick Andrade</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
